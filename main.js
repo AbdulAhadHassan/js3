@@ -161,3 +161,192 @@
 // }
 
 
+// Q7
+// var userNumber = +prompt('Enter number')
+// if( userNumber == 7){
+//     document.write( "Bingo! Correct answer" )
+// }
+// else if(userNumber<7){
+//     document.write('<p>', " Maybe its higher number " , '</p>')
+// }
+// else if(userNumber >7){
+//     document.write('<p>', " Maybe its lower number" , '</p>')
+// }
+// else {
+//     document.write('<p>', "bruh what r u even doin" , '</p>')
+// }
+
+
+// Q8
+// var userNumber = +prompt('Enter number')
+// var numberDivisualBy3 = userNumber % 3
+// console.log(numberDivisualBy3)
+// if( 0 == numberDivisualBy3){
+//     document.write( "your number is divisible by 3" )
+// }
+// else{
+//     document.write( "your number is not divisible by 3" )
+// }
+
+// Q9
+// var userNumber = +prompt('Enter number')
+// var numberDivisualBy3 = userNumber % 2
+// console.log(numberDivisualBy3)
+// if( 0 == numberDivisualBy3){
+//     document.write( "your number is even" )
+// }
+// else{
+//     document.write( "your number is odd" )
+// }
+
+
+// Q10
+// var userNumber = +prompt('Enter number')
+// if( userNumber >= 40){
+//     document.write( "You live on sun" )
+// }
+// else if( userNumber >= 30){
+//     document.write('<p>',  "It is too hot outside", '</p>' )
+// }
+// else if(userNumber>=20){
+//     document.write('<p>', " The Weather today is Normal " , '</p>')
+// }
+// else if(userNumber >=10){
+//     document.write('<p>', " Today’s Weather is cool" , '</p>')
+// }
+// else if (userNumber>=0 ){
+//     document.write('<p>', "OMG! Today’s weather is so Cool" , '</p>')
+// }
+// else{
+//     document.write('<p>', "You dont live on earth" , '</p>')
+// }
+
+// Q11
+// var firstNumber = +prompt('Enter first number')
+// var secondNumber = +prompt('Enter second number')
+// var sign = prompt('Enter + , - , / , %')
+// if(sign == "+" ){
+//     document.write('<p>',  firstNumber + secondNumber ,  '</p>' )
+// }
+// else if(sign == "-" ){
+//     document.write('<p>',  firstNumber - secondNumber ,  '</p>' )
+// }
+// else if(sign == "/" ){
+//     document.write('<p>',  firstNumber / secondNumber ,  '</p>' )
+// }
+// else if(sign == "%" ){
+//     document.write('<p>',  firstNumber % secondNumber ,  '</p>' )
+// }
+// else{
+//     document.write('<p>',  "not a number" ,  '</p>' )
+// }
+
+
+
+
+// chapter 12-13
+
+
+
+//  Q2
+//  var integer1 = +prompt(' Enter integer one')
+//  var integer2 = +prompt(' Enter integer two')
+//  if(integer1 == integer2){
+//     document.write('<p>',  'The integers are equal' ,  '</p>' )
+
+//  }
+// else{
+//     if(integer1>integer2){
+//         document.write('<p>',  'The integers one is larger' ,  '</p>' )
+
+//     }
+//     else{
+//         document.write('<p>',  'The integers two is larger' ,  '</p>' )
+
+//     }
+// }
+
+
+// Q3
+// var userNumber = +prompt('Enter number')
+// if(userNumber == 0 ){
+//     document.write('<p>', " Number is zero " , '</p>')
+// }
+// else if( userNumber > 0){
+//     document.write('<p>', "Number is positive" , '</p>' )
+// }
+// else if( userNumber < 0){
+//     document.write('<p>',  "Number is negetive", '</p>' )
+// }
+// else if(userNumber= 0 ){
+//     document.write('<p>', " Number is zero " , '</p>')
+// }
+
+// else{
+//     document.write('<p>', "enter number only" , '</p>')
+// }
+
+
+// Q4
+// var userLetter = prompt('Enter letter')
+// if(userLetter === "a"){
+//     document.write('<p>', " true " , '</p>')
+// }
+// else if(userLetter === "e"){
+//     document.write('<p>', " true " , '</p>')
+// }
+// else if(userLetter === "i"){
+//     document.write('<p>', " true " , '</p>')
+// }
+// else if(userLetter === "o"){
+//     document.write('<p>', " true " , '</p>')
+// }
+// else if(userLetter === "u"){
+//     document.write('<p>', " true " , '</p>')
+// }
+// else{
+//     document.write('<p>', "false" , '</p>')
+// }
+
+// Q5
+// var creatPassword = prompt("Create a password")
+// var passsword = prompt('Enter Your password')
+
+// if(creatPassword===passsword){
+//     document.write('<p>', 'Correct! The password you entered matches the original password', '</p>')
+
+// }
+// else if(creatPassword!=passsword){
+//     document.write('<p>', 'Incorroct Password', '</p>')
+
+// }
+// else{
+//     document.write('<p>', "Enter passwoed", '</p>')
+
+// }
+
+// Q6
+// var hour = 13;
+// if (hour < 18) {
+// document.write('<p>',  "Good day", '</p>')
+// }
+// else{
+// document.write('<p>',  "Good evening", '</p>')
+// }
+
+// Q7
+// var time = +prompt('enter time')
+// if(time > 1200){
+//     document.write('<p>', (time - 1200)/100 , "pm", '</p>')
+
+// }
+
+// else if(time <= 1200){
+//     document.write('<p>', time / 100, "am", '</p>')
+
+// }
+// else{
+//     document.write('<p>',  "Please emter eath's time only", '</p>')
+
+// }
+
